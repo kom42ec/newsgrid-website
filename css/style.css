@@ -11,3 +11,11 @@
   --ent-color: #a66bbe;
   --tech-color: #009cff;
 }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
