@@ -80,6 +80,32 @@ h6 {
   background: var(--tech-color);
 }
 
+.btn {
+  display: inline-block;
+  border: none;
+  background: var(--dark-color);
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+}
+
+.btn:hover {
+  opacity: 0.9; /* no matter the color it will change the button on hover */
+}
+.btn-light {
+  background: var(--light-color);
+}
+.btn-primary {
+  background: var(--primary-color);
+}
+.btn-secondary {
+  background: var(--secondary-color);
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
 /* Navigation */
 
 #main-nav {
@@ -164,4 +190,8 @@ h6 {
 
 #showcase .showcase-content {
   z-index: 1;
+}
+
+#showcase .showcase-content p {
+  margin-bottom: 1rem;
 }
