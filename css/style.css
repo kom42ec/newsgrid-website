@@ -25,3 +25,28 @@ body {
   line-height: 1.5;
   background-color: var(--light-color);
 }
+
+a {
+  color: var(--dark-color);
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Staatliches", cursive;
+  margin-bottom: 0.55rem;
+  line-height: 1.3;
+}
