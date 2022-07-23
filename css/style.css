@@ -284,3 +284,17 @@ h6 {
 #main-footer a {
   color: #fff;
 }
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container > *:last-child {
+  background-color: #444;
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.75rem;
+}
