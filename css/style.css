@@ -347,3 +347,15 @@ h6 {
 #categories .list li a:hover {
   color: var(--primary-color);
 }
+
+#article .meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #eee;
+  padding: 1rem;
+}
+
+#article .meta .category {
+  margin-bottom: 0;
+}
