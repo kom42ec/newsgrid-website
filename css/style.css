@@ -101,14 +101,47 @@ h6 {
   background: var(--secondary-color);
 }
 
-.card {
-  background: #fff;
-  padding: 1rem;
-}
 .btn-block {
   display: block;
   width: 100%;
   text-align: center;
+}
+
+.card {
+  background: #fff;
+  padding: 1rem;
+}
+
+.bg-dark {
+  background-color: var(--dark-color);
+  color: #fff;
+}
+.bg-primary {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.bg-secondary {
+  background-color: var(--secondary-color);
+  color: #fff;
+}
+
+.py-1 {
+  padding: 1.5rem 0;
+}
+.py-1 {
+  padding: 2rem 0;
+}
+.py-1 {
+  padding: 3rem 0;
+}
+.p-1 {
+  padding: 1.5rem;
+}
+.p-2 {
+  padding: 2rem;
+}
+.p-3 {
+  padding: 3rem;
 }
 /* Navigation */
 
