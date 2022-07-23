@@ -298,3 +298,13 @@ h6 {
   padding: 1.5rem;
   font-size: 0.75rem;
 }
+
+#main-footer .footer-container input[type="email"] {
+  width: 90%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+#main-footer .footer-container input[type="submit"] {
+  width: 90%;
+}
