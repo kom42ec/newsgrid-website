@@ -101,6 +101,10 @@ h6 {
   background: var(--secondary-color);
 }
 
+.card {
+  background: #fff;
+  padding: 1rem;
+}
 .btn-block {
   display: block;
   width: 100%;
@@ -195,3 +199,5 @@ h6 {
 #showcase .showcase-content p {
   margin-bottom: 1rem;
 }
+
+/* Home Articles */
