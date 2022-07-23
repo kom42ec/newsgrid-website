@@ -165,6 +165,9 @@ h6 {
   padding: 3rem;
 }
 
+.l-heading {
+  font-size: 3rem;
+}
 /* Inner page grid container */
 .page-container {
   display: grid;
@@ -330,5 +333,17 @@ h6 {
 }
 
 #main-footer .list li a:hover {
+  color: var(--primary-color);
+}
+
+/* Article */
+
+#categories .list li {
+  padding: 0.5rem 0;
+  border-bottom: #555 dotted 1px;
+  width: 90%;
+}
+
+#categories .list li a:hover {
   color: var(--primary-color);
 }
