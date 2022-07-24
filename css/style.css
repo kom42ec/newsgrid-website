@@ -310,7 +310,7 @@ h6 {
 
 #main-footer .footer-container > *:last-child {
   background-color: #444;
-  grid-column: 1 / -1;
+  grid-column: 1 / -1; /* Always span like this because it will be easier later when you have to add responsive queries and change the grid system */
   text-align: center;
   padding: 1.5rem;
   font-size: 0.75rem;
